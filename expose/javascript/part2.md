@@ -37,3 +37,5 @@ true == 2 -> false, true is 1, not 2
 true === Boolean(2) -> Boolean(2) represent the boolean value for 2, which is non-empty, non-zero
 
 15. == checks for equality of the value, === checks for same type and equality, so === is basically a strict equality.
+
+17. The result would be a returned array which has [2, 4, 6], the original array numbers doubled. We can see this is the case by tracing the function and seeing that the callback function returns the number that's passed in times 2.
