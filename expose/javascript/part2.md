@@ -39,3 +39,5 @@ true === Boolean(2) -> Boolean(2) represent the boolean value for 2, which is no
 15. == checks for equality of the value, === checks for same type and equality, so === is basically a strict equality.
 
 17. The result would be a returned array which has [2, 4, 6], the original array numbers doubled. We can see this is the case by tracing the function and seeing that the callback function returns the number that's passed in times 2.
+
+19. First 1 then 4 will print, the two regular console log statements. 3 will also print right after instantly (0 second timeout). But 2 will print after 1 second of waiting. Output order: 1, 4, 3, 2
